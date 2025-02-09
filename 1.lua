@@ -10456,7 +10456,7 @@ function aa.CreateWindow(j, k)
 			Parent = v
 		})
 		local w, x, y = d('TextLabel', {
-			Text = 'Roblox',
+			Text = '剑客使用条款',
 			TextSize = 20,
 			FontFace = Font.new(c.Font, Enum.FontWeight.SemiBold),
 			TextXAlignment = 'Left',
