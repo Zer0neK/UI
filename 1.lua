@@ -10550,7 +10550,7 @@ function aa.CreateWindow(j, k)
 					ClipsDescendants = true,
 					TextXAlignment = 'Left',
 					FontFace = Font.new(c.Font),
-					PlaceholderText = '请输入卡密...',
+					PlaceholderText = '是否接受脚本带来的风险→',
 					ThemeTag = {
 						TextColor3 = 'Text'
 					}
@@ -10575,7 +10575,7 @@ function aa.CreateWindow(j, k)
 			})
 		})
 		local A, B = (d('TextButton', {
-			Text = '提交',
+			Text = '接受',
 			TextSize = 15,
 			FontFace = Font.new(c.Font, Enum.FontWeight.Medium),
 			ThemeTag = {
@@ -10612,7 +10612,7 @@ function aa.CreateWindow(j, k)
 		}))
 		if k.KeySystem.URL then
 			B = d('TextButton', {
-				Text = '我接受脚本带来的风险',
+				Text = '不接受',
 				TextSize = 15,
 				FontFace = Font.new(c.Font, Enum.FontWeight.Medium),
 				ThemeTag = {
